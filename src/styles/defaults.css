@@ -1,0 +1,36 @@
+.base-btn {
+    border: 3px solid #FF8268;
+    color: #FF8268;
+    background-color: #2e2e2e;
+    padding: 8px 50px;
+}
+.link-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBar{
+    background-color: #3e3e3e;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* The preson who is looking at this is stupid */
+.navBarItem{
+    font-weight: 500;
+    padding: 0px 45px 0px 0px;
+    color: #FF9900;
+    text-align: center;
+}
+.nav-logo{
+    width:50px;
+    height:50px;
+    padding: 10px;
+}
+.panel-1{
+    background-color: #2e2e2e;
+}
+.img-logo-home{
+    width: 300px;
+    height:300px;
+}
