@@ -1,21 +1,40 @@
 .base-btn {
     border: 3px solid #FF8268;
     color: #FF8268;
+    font-size: 15px;
+    font-weight: 900;
     background-color: #2e2e2e;
-    padding: 8px 50px;
+    padding: 15px 75px;
+}
+.slanted-divider{
+    transform: skew(0deg,-6.95deg);
+    background-color:#2e2e2e;
+    padding: 25px 0px 25px 0px;
+}
+.orange-line{
+    border: 1.5px solid #FC6B41;
+}
+.pink-line{
+    border: 1.5px solid #FF8585;
 }
 .link-container{
     display: flex;
     justify-content: space-evenly;
 }
 .navBar{
+    position: fixed; 
+    top: 0; 
+    width: 100%;
     background-color: #3e3e3e;
     padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-/* The preson who is looking at this is stupid */
+
+
+/* The preson who is looking at this is stupid -Jaden*/
+/* Navbar */
 .navBarItem{
     font-weight: 500;
     padding: 0px 45px 0px 0px;
@@ -27,10 +46,64 @@
     height:50px;
     padding: 10px;
 }
-.panel-1{
+/* First panel */
+.header-panel{
+    display: flex;
+    align-items:center;
+    padding: 150px 100px 75px 100px;
     background-color: #2e2e2e;
 }
 .img-logo-home{
-    width: 300px;
-    height:300px;
+    padding: 0px 50px 0px 10px;
+    width: 400px;
+    height:400px;
+}
+.big-orange{
+    font-weight: 900;
+    font-size: 100px;
+    color: #FF9900;
+}
+.small-white{
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.our-mission-panel{
+    text-align: center;
+    padding: 75px 350px 75px 350px;
+    background-color: #2e2e2e;
+}
+.our-mission{
+    font-weight: 900;
+    font-size: 40px;
+    color: #FF9900;
+}
+.frc-info{
+    color: white;
+    font-weight: 500;
+    padding: 10px 0px 20px 0px;
+    line-height: 2;
+}
+.our-school-panel{
+    text-align: center;
+    display: flex;
+    padding: 75px 150px 25px 150px;
+    background-color: #2e2e2e;
+}
+.west-logo-home{
+    width: 400px;
+    height: auto;
+    padding: 0px 100px 0px 0px;
+}
+.our-school{
+    font-weight: 900;
+    font-size: 40px;
+    color: #FF9900;
+}
+.west-description{
+    color: white;
+    font-weight: 500;
+    padding: 10px 0px 20px 0px;
+    line-height: 2;
 }

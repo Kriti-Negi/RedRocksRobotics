@@ -11,6 +11,9 @@ export default function NavBar(props){
             </div>
             <div className='link-container'>
                 <NavBarItem
+                    name = "Home"
+                />
+                <NavBarItem
                     name = "Team"
                 />
                 <NavBarItem
