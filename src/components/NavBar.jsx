@@ -10,23 +10,24 @@ export default function NavBar(props){
                 <img className = "nav-logo"  src = {logo}/>
             </div>
             <div className='link-container'>
+                
                 <NavBarItem
-                    name = "Home"
+                    name = "Home" address = "/"
                 />
                 <NavBarItem
-                    name = "Team"
+                    name = "Team" address = "/team"
                 />
                 <NavBarItem
-                    name = "Sponsors"
+                    name = "Sponsors" address = "/sponsors"
+                />
+                {/* <NavBarItem
+                    name = "Resources" address = ""
+                /> */}
+                <NavBarItem
+                    name = "News" address = "/media"
                 />
                 <NavBarItem
-                    name = "Resources"
-                />
-                <NavBarItem
-                    name = "News"
-                />
-                <NavBarItem
-                    name = "Contact"
+                    name = "Contact" address = "/contactus"
                 />
             </div>
         </div>
