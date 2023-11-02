@@ -1,6 +1,7 @@
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
 import SlantedDivider from '../components/SlantedDivider';
+import Footer from '../components/Footer';
 import logo from '../images/HomePageLogo-removebg-preview.png';
 import westLogo from '../images/HomePantherLogo.png';
 function Home(){
@@ -52,7 +53,7 @@ function Home(){
                     <img className = "west-logo-home"  src = {westLogo}/>
                 </div>
 
-                <div>
+                <div class = "our-school-right">
                     <div class = "our-school">
                         Our School
                     </div>
@@ -68,9 +69,19 @@ function Home(){
                         International Baccalaureate classes which the majority of the 
                         robotics team members take during their time at West. 
                     </div>
+                    <div class = "west-button">
+                        <Button name = "West High School"/>
+                    </div>
                 </div>
 
             </div>
+
+
+            <div className = "our-team-panel">
+                <div>Our Team</div>
+            </div>
+
+            <Footer/>
         </div>
 
 

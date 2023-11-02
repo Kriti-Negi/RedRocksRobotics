@@ -7,21 +7,27 @@
     padding: 15px 75px;
 }
 .slanted-divider{
-    transform: skew(0deg,-6.95deg);
     background-color:#2e2e2e;
     padding: 25px 0px 25px 0px;
 }
-.orange-line{
+.slanted-orange-line{
+    transform: skew(0deg,-6.95deg);
     border: 1.5px solid #FC6B41;
 }
-.pink-line{
+.slanted-pink-line{
+    transform: skew(0deg,-6.95deg);
     border: 1.5px solid #FF8585;
+}
+.orange-line{
+    border : 1.5px solid #FC6B41;
+    padding: 0px;
 }
 .link-container{
     display: flex;
     justify-content: space-evenly;
 }
 .navBar{
+    z-index: 5;
     position: fixed; 
     top: 0; 
     width: 100%;
@@ -87,6 +93,7 @@
 }
 .our-school-panel{
     text-align: center;
+    align-items: center;
     display: flex;
     padding: 75px 150px 25px 150px;
     background-color: #2e2e2e;
@@ -101,9 +108,27 @@
     font-size: 40px;
     color: #FF9900;
 }
+.our-school-right{
+    padding: 0px 50px 0px 20px;
+}
 .west-description{
     color: white;
     font-weight: 500;
     padding: 10px 0px 20px 0px;
     line-height: 2;
+    text-align: left;
+}
+
+.our-team-panel{
+    background-color:#2e2e2e;
+    padding: 0px;
+}
+
+.footer{
+    text-align: center;
+    background-color:#2e2e2e;
+}
+.footer-logo{
+    width: 100px;
+    height: 100px;
 }
