@@ -74,6 +74,25 @@ function Home(){
                     </div>
                 </div>
 
+                
+
+                <div class = "our-team-panel">
+                    {/* Weird box thing in middle */}
+
+
+                    <div class = "lower-team-panel">
+                        <div class = "team-panel">
+                            
+                        </div>
+                        <div class = "money-panel">
+                            
+                        </div>
+                        <div class = "clock-panel">
+                            
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
 
