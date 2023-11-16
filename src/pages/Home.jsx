@@ -47,7 +47,7 @@ function Home(){
                     on innovation, respect to both ourselves and our competitors,
                     and giving back to our community - all at zero cost for our 
                     team members.</div>
-                <div>{ <Button name = "What is FRC?"/> }</div>
+                <div>{ <Button name = "What is FRC?" url = "https://www.firstinspires.org/robotics/frc"/> }</div>
             </div>
             <SlantedDivider/>
             {/* Our School Panel */}
@@ -73,7 +73,7 @@ function Home(){
                         robotics team members take during their time at West. 
                     </div>
                     <div class = "west-button">
-                        <Button name = "West High School"/>
+                        <Button name = "West High School" url = "https://west.slcschools.org/"/>
                     </div>
                 </div>
 
