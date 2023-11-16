@@ -102,7 +102,7 @@ function Home(){
                     </div>
                 </div>
                 <div className = "learn-more-button">
-                    <Button name = "Learn More"/>
+                    <Button name = "Learn More" url = "/team"/>
                 </div>
                 
             </div>
