@@ -59,13 +59,18 @@
 .header-panel{
     display: flex;
     align-items:center;
+    justify-content: center;
     padding: 150px 100px 75px 100px;
     background-color: #2e2e2e;
 }
+
+.header-panel > .header-text{
+    max-width: 35rem;
+}
+
 .img-logo-home{
     padding: 0px 50px 0px 10px;
-    width: 400px;
-    height:400px;
+    width: 25rem;
 }
 .big-orange{
     font-weight: 900;
@@ -77,6 +82,7 @@
     font-size: 40px;
     color: white;
 }
+
 /* Our Mission Panel */
 .our-mission-panel{
     text-align: center;
