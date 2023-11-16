@@ -4,6 +4,9 @@ import SlantedDivider from '../components/SlantedDivider';
 import Footer from '../components/Footer';
 import logo from '../images/HomePageLogo-removebg-preview.png';
 import westLogo from '../images/HomePantherLogo.png';
+import teamIcon from '../images/PeopleIcon.png';
+import moneyIcon from '../images/MoneyIcon.png';
+import clockIcon from '../images/ClockIcon.png';
 function Home(){
     return (
         <div>
@@ -76,28 +79,32 @@ function Home(){
 
                 
 
-                <div class = "our-team-panel">
-                    {/* Weird box thing in middle */}
-
-
-                    <div class = "lower-team-panel">
-                        <div class = "team-panel">
-                            
-                        </div>
-                        <div class = "money-panel">
-                            
-                        </div>
-                        <div class = "clock-panel">
-                            
-                        </div>
-                    </div>
-                </div>
+                
                 
             </div>
+            <SlantedDivider/>
+            <div class = "our-team-panel">
+                {/* Weird box thing in middle */}
+                <div className = "our-team">Our Team</div>
 
-
-            <div className = "our-team-panel">
-                <div>Our Team</div>
+                <div class = "lower-team-panel">
+                    <div class = "team-panel">
+                        <img className = "people-icon" src = {teamIcon}/>
+                        <div className = "team-text"> <span className = "bold-orange">50+</span> <span className = "unbold-white">TEAM MEMBERS</span></div>
+                    </div>
+                    <div class = "money-panel">
+                        <img className = "money-icon" src = {moneyIcon}/>
+                        <div className = "team-text"> <span className = "bold-orange">$0</span> <span className = "unbold-white">Cost required to join, participate, and travel</span></div>
+                    </div>
+                    <div class = "clock-panel">
+                        <img className = "clock-icon" src = {clockIcon}/>
+                        <div className = "team-text"> <span className = "bold-orange">15</span> <span className = "unbold-white">years active</span></div>
+                    </div>
+                </div>
+                <div className = "learn-more-button">
+                    <Button name = "Learn More"/>
+                </div>
+                
             </div>
 
             <Footer/>

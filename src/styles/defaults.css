@@ -20,7 +20,8 @@
 }
 .orange-line{
     border : 1.5px solid #FC6B41;
-    padding: 0px;
+    padding: -10px;
+    margin-top: 0;
 }
 .link-container{
     display: flex;
@@ -75,7 +76,7 @@
     font-size: 40px;
     color: white;
 }
-
+/* Our Mission Panel */
 .our-mission-panel{
     text-align: center;
     padding: 75px 350px 75px 350px;
@@ -83,7 +84,7 @@
 }
 .our-mission{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
     color: #FF9900;
 }
 .frc-info{
@@ -92,11 +93,12 @@
     padding: 10px 0px 20px 0px;
     line-height: 2;
 }
+/* Our School Panel */
 .our-school-panel{
     text-align: center;
     align-items: center;
     display: flex;
-    padding: 75px 150px 25px 150px;
+    padding: 50px 150px 50px 150px;
     background-color: #2e2e2e;
 }
 .west-logo-home{
@@ -106,7 +108,7 @@
 }
 .our-school{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
     color: #FF9900;
 }
 .our-school-right{
@@ -119,12 +121,61 @@
     line-height: 2;
     text-align: left;
 }
-
+/* Our Team Panel */
 .our-team-panel{
     background-color:#2e2e2e;
-    padding: 0px;
+    padding: 50px 0px 50px 0px;
+}
+.our-team{
+    text-align: center;
+    color:#FF9900;
+    font-weight: 900;
+    font-size: 50px;
+}
+.lower-team-panel{
+    display: flex;
+    padding: 50px 280px 50px 280px;
+    align-items: center;
+    text-align: center;
+}
+.team-panel{
+    padding: 0px 10px 0px 10px;
+}
+.money-panel{
+    padding: 0px 10px 0px 10px;
+}
+.clock-panel{
+    padding: 0px 10px 0px 10px;
+}
+.money-icon{
+    height: 200px;
+    width: auto;
+}
+.clock-icon{
+    height: 200px;
+    width: auto;
+}
+.people-icon{
+    height: 200px;
+    width: auto;
+}
+.bold-orange{
+    color:#FF9900;
+    font-weight: 900;
+    
+}
+.unbold-white{
+    color:white;
+    font-weight: 500;
+}
+.team-text{
+    text-align: center;
+}
+.learn-more-button{
+    text-align: center;
 }
 
+/* Footer */
 .footer{
     text-align: center;
     background-color:#2e2e2e;
@@ -132,4 +183,33 @@
 .footer-logo{
     width: 100px;
     height: 100px;
+}
+.footer-follow{
+    color: white;
+    font-weight: 500;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+
+
+
+.contact-us-title{
+    background-color: #2e2e2e;
+    font-weight: 900;
+    font-size: 90px;
+    color: #FF9900;
+    padding: 100px 0px 10px 0px;
+    text-align: center;
+}
+
+.button-panel-contact{
+    background-color:#2e2e2e;
+    text-align: center;
+}
+.email-button{
+    padding: 10px 0px 10px 0px;
+}
+.instagram-button{
+    padding: 10px 0px 10px 0px;
 }

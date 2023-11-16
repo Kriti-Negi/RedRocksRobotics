@@ -9,6 +9,30 @@ function ContactUs(){
     return (
         <div>
             <NavBar/>
+            <div className = "contact-us-title">
+                Contact Us!
+            </div>
+            {/* Try to find a way to do this with rectangles, not buttons. */}
+            {/* <div id = "rectangle" className = "rect-panel-contact">
+                <div className = "email-rect">
+                    Email: whsred3006@gmail.com
+                </div>
+                <div id = 'rectangle' className = "instagram-rect">
+                    Instagram: redrock3006
+                </div>
+                
+            </div> */}
+            <div className = "button-panel-contact">
+                <div className = "email-button">
+                    <Button name = "Email: whsread3006@gmail.com"/>
+                </div>
+                <div className = "instagram-button">
+                    <Button name = "Instagram: redrock-3006"/>
+                </div>
+            </div>
+
+            <Footer/>
+            
         </div>
     )
 }

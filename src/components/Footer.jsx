@@ -6,7 +6,7 @@ export default function Footer(){
         <div className = "footer">
             <hr className = "orange-line"/>
             <img className = "footer-logo"  src = {logo}/>
-            <div>Socials</div>
+            <div className = "footer-follow">Follow Us!</div>
         </div>
     );
 }
