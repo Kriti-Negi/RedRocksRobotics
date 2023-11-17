@@ -176,10 +176,27 @@
     text-align: center;
 }
 
+/* Sponsors Panel */
+.sponsors-title{
+    color:#FF9900;
+    font-size: 50px;
+    font-weight: 900;
+}
+.sponsors-panel-home{
+    background-color:#2e2e2e;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+.sponsor-banner{
+    width: 750px;
+    height: auto;
+}
+
 /* Footer */
 .footer{
     text-align: center;
     background-color:#2e2e2e;
+    padding: 0px;
 }
 .footer-logo{
     width: 100px;
@@ -194,7 +211,7 @@
 
 
 
-
+/* Contact Us Page */
 .contact-us-title{
     background-color: #2e2e2e;
     font-weight: 900;
@@ -213,4 +230,7 @@
 }
 .instagram-button{
     padding: 10px 0px 10px 0px;
+}
+.github-button{
+    padding: 10px 0px 20px 0px;
 }

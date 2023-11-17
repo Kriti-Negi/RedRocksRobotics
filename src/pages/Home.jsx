@@ -7,6 +7,7 @@ import westLogo from '../images/HomePantherLogo.png';
 import teamIcon from '../images/PeopleIcon.png';
 import moneyIcon from '../images/MoneyIcon.png';
 import clockIcon from '../images/ClockIcon.png';
+import sponsorBanner from '../images/Sponsorship_Banner-removebg-preview.png'
 function Home(){
     return (
         <div>
@@ -106,7 +107,14 @@ function Home(){
                 </div>
                 
             </div>
+            <SlantedDivider/>
 
+            {/* Sponsors */}
+            <div className = "sponsors-panel-home">
+                <div className = "sponsors-title">Sponsors</div>
+                <img className = "sponsor-banner" src = {sponsorBanner}></img>
+            </div>
+            {/*  */}
             <Footer/>
         </div>
 

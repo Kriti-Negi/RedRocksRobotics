@@ -29,6 +29,9 @@ function ContactUs(){
                 <div className = "instagram-button">
                     <Button name = "Instagram: redrock-3006"/>
                 </div>
+                <div className = "github-button">
+                    <Button name = "Github: Red-Rock-Robotics-3006" url = "https://github.com/Red-Rock-Robotics-3006"/>
+                </div>
             </div>
 
             <Footer/>
