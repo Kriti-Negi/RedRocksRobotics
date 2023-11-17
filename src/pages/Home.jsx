@@ -14,12 +14,6 @@ function Home(){
             <div>
                 <NavBar/>
             </div>
-            {/* <Button
-                name = "hello world"
-            /> */}
-
-
-
             <div className = "header-panel">
 
                 <div>
