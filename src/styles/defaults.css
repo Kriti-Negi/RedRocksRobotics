@@ -197,6 +197,9 @@
     width: 750px;
     height: auto;
 }
+.sponsor-button{
+    padding: 0px 0px 25px 0px;
+}
 
 /* Footer */
 .footer{
@@ -247,4 +250,24 @@
 }
 .github-button{
     padding: 10px 0px 20px 0px;
+}
+/* Our Team Page */
+.team-page-first{
+    display: flex;
+    padding: 150px 100px 75px 100px;
+    background-color:#2e2e2e;
+}
+.team-page-text{
+    align-items: center;
+    padding: 100px 20px 0px 25px;
+}
+.team-page-big-orange{
+    font-weight: 900;
+    font-size: 100px;
+    color: #FF9900;
+}
+.team-page-small-white{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
 }

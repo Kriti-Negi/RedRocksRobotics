@@ -107,6 +107,7 @@ function Home(){
             <div className = "sponsors-panel-home">
                 <div className = "sponsors-title">Sponsors</div>
                 <img className = "sponsor-banner" src = {sponsorBanner}></img>
+                <div className = "sponsor-button"><Button name = "Learn More" url = '/sponsors'/></div>
             </div>
             {/*  */}
             <Footer/>
