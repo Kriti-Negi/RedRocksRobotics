@@ -24,7 +24,7 @@ export default function NavBar(props){
                     name = "Resources" address = ""
                 /> */}
                 <NavBarItem
-                    name = "News" address = "/media"
+                    name = "Photos" address = "/media"
                 />
                 <NavBarItem
                     name = "Contact" address = "/contactus"
