@@ -11,7 +11,7 @@ export default function Footer(){
             <div className = "footer-follow">Follow Us!</div>
             <div className = "footer-icons">
                 <div className = "social-icons">
-                    <a href = "https://instagram.com">
+                    <a href = "https://instagram.com/redrockrobotics">
                         <img src = {instagram} width={50}></img>
                     </a>
                 </div>
