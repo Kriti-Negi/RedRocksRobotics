@@ -29,7 +29,7 @@ function ContactUs(){
                     <Button name = "Email: whsread3006@gmail.com"/>
                 </div>
                 <div className = "instagram-button">
-                    <Button name = "Instagram: redrock-3006"/>
+                    <Button name = "Instagram: redrockrobotics"/>
                 </div>
                 <div className = "github-button">
                     <Button name = "Github: Red-Rock-Robotics-3006" url = "https://github.com/Red-Rock-Robotics-3006"/>

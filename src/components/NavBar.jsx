@@ -6,9 +6,8 @@ import logo from '../images/arch-logo_red-removebg-preview.png'
 export default function NavBar(props){
     return(
         <div className = "navBar">
-            <div>
-                <img className = "nav-logo"  src = {logo}/>
-            </div>
+            <a href = "/"><img className = "nav-logo"  src = {logo}/></a>
+            
             <div className='link-container'>
                 
                 <NavBarItem
