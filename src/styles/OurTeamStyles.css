@@ -1,3 +1,49 @@
+/* Our Team Page */
+.team-page-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 100px 50px 100px;
+    background-color:#2e2e2e;
+    
+}
+.team-page-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.team-page-image{
+    padding-right: 3rem;
+}
+
+.team-page-big-orange{
+    font-weight: 900;
+    font-size: 100px;
+    color: #FF9900;
+    font-family: 'Tektur', sans-serif;
+    padding-bottom: 20px;
+}
+.team-page-small-white{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.team-page-small-white{
+    line-height: 200%;
+}
+
+.subheading-white{
+    color: #DCD7CF;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: 'Tektur', sans-serif;
+}
+
 .subgroup-section{
     max-width: 1400px;
     margin: auto;

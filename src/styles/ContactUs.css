@@ -1,0 +1,31 @@
+/* Contact Us Page */
+.contact-us-title{
+    background-color: #2e2e2e;
+    font-weight: 900;
+    font-size: 90px;
+    color: #FF9900;
+    padding: 10% 0px 30px 0px;
+    text-align: center;
+    font-family: 'Tektur', sans-serif;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.button-panel-contact{
+    background-color:#2e2e2e;
+    text-align: center;
+}
+.email-button{
+    padding: 10px 0px 10px 0px;
+}
+.instagram-button{
+    padding: 10px 0px 10px 0px;
+}
+.github-button{
+    padding: 10px 0px 10% 0px;
+}
+.button-panel-contact > div> a > button{
+    font-size: 3rem;
+    color: #DCD7CF;
+}

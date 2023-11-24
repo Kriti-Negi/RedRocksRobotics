@@ -45,8 +45,6 @@ body{
     justify-content: space-between;
 }
 
-
-/* The preson who is looking at this is stupid -Jaden*/
 /* Navbar */
 .navBarItem{
     font-weight: 500;
@@ -92,13 +90,16 @@ body{
 /* Our Mission Panel */
 .our-mission-panel{
     text-align: center;
-    padding: 75px 350px 75px 350px;
+    padding: 100px;
     background-color: #2e2e2e;
+    margin: auto;
+    max-width: 1000px;
 }
 .our-mission{
     font-weight: 900;
     font-size: 50px;
     color: #FF9900;
+    font-family: 'Tektur', sans-serif;
 }
 .frc-info{
     color: white;
@@ -108,11 +109,13 @@ body{
 }
 /* Our School Panel */
 .our-school-panel{
-    text-align: center;
+    text-align: left;
     align-items: center;
     display: flex;
-    padding: 50px 150px 50px 150px;
+    padding: 100px 150px 100px 150px;
     background-color: #2e2e2e;
+    max-width: 1300px;
+    margin: auto;
 }
 .west-logo-home{
     width: 400px;
@@ -123,6 +126,7 @@ body{
     font-weight: 900;
     font-size: 50px;
     color: #FF9900;
+    font-family: 'Tektur', sans-serif;
 }
 .our-school-right{
     padding: 0px 50px 0px 20px;
@@ -134,22 +138,28 @@ body{
     line-height: 2;
     text-align: left;
 }
+
 /* Our Team Panel */
 .our-team-panel{
     background-color:#2e2e2e;
     padding: 50px 0px 50px 0px;
+    
 }
 .our-team{
     text-align: center;
     color:#FF9900;
     font-weight: 900;
     font-size: 50px;
+    font-family: 'Tektur', sans-serif;
 }
 .lower-team-panel{
     display: flex;
-    padding: 50px 280px 50px 280px;
+    padding: 50px 280px;
     align-items: center;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .team-panel{
     padding: 0px 10px 0px 10px;
@@ -193,6 +203,7 @@ body{
     color:#FF9900;
     font-size: 50px;
     font-weight: 900;
+    font-family: 'Tektur', sans-serif;
 }
 .sponsors-panel-home{
     background-color:#2e2e2e;
@@ -205,6 +216,7 @@ body{
 }
 .sponsor-button{
     padding: 0px 0px 25px 0px;
+    margin-bottom: 40px;
 }
 
 /* Footer */
@@ -232,73 +244,4 @@ body{
 .copyright-message{
     color: gray;
     padding: 10px 0px 25px 0px;
-}
-
-/* Contact Us Page */
-.contact-us-title{
-    background-color: #2e2e2e;
-    font-weight: 900;
-    font-size: 90px;
-    color: #FF9900;
-    padding: 100px 0px 10px 0px;
-    text-align: center;
-}
-
-.button-panel-contact{
-    background-color:#2e2e2e;
-    text-align: center;
-}
-.email-button{
-    padding: 10px 0px 10px 0px;
-}
-.instagram-button{
-    padding: 10px 0px 10px 0px;
-}
-.github-button{
-    padding: 10px 0px 20px 0px;
-}
-/* Our Team Page */
-.team-page-first{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 150px 100px 50px 100px;
-    background-color:#2e2e2e;
-    
-}
-.team-page-text{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    max-width: 700px;
-}
-
-.team-page-image{
-    padding-right: 3rem;
-}
-
-.team-page-big-orange{
-    font-weight: 900;
-    font-size: 100px;
-    color: #FF9900;
-    font-family: 'Tektur', sans-serif;
-    padding-bottom: 20px;
-}
-.team-page-small-white{
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-}
-
-.team-page-small-white{
-    line-height: 200%;
-}
-
-.subheading-white{
-    color: #DCD7CF;
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 150%;
-    font-family: 'Tektur', sans-serif;
 }

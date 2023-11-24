@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import logo from '../images/HomePageLogo-removebg-preview.png';
 import westLogo from '../images/HomePantherLogo.png';
 
+import '../styles/ContactUs.css'
+
 function ContactUs(){
     return (
         <div>
