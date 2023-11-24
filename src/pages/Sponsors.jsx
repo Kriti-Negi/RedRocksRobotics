@@ -7,7 +7,11 @@ import '../styles/SponsorStyles.css';
 import {SponsorCard} from '../components/SponsorCard';
 
 import googleFiber from '../images/google fiber.png';
-import RioTinto from '../images/RioTinto logo.png'
+import RioTinto from '../images/RioTinto logo.png';
+import Northrop from '../images/Northrop_Grumman_logo_blue-on-clear_2020.png'
+import Marathon from '../images/MarathonLogo.png';
+import TSlots from '../images/tslotsLogo.png';
+import DodLogo from '../images/DoDLogo.png';
 
 function Sponsors(){
     return (
@@ -50,16 +54,20 @@ function Sponsors(){
                         name = "Rio Tinto"
                     />
                     <SponsorCard
-                        logo = {googleFiber}
-                        name = "Google Fiber"
+                        logo = {Northrop}
+                        name = "Northrop Grumman"
                     />
                     <SponsorCard
-                        logo = {googleFiber}
-                        name = "Google Fiber"
+                        logo = {Marathon}
+                        name = "Marathon"
                     />
                     <SponsorCard
-                        logo = {googleFiber}
-                        name = "Google Fiber"
+                        logo = {TSlots}
+                        name = "T Slots"
+                    />
+                    <SponsorCard
+                        logo = {DodLogo}
+                        name = "DOD STEM"
                     />
                 </div>
             </div>
