@@ -245,3 +245,39 @@ body{
     color: gray;
     padding: 10px 0px 25px 0px;
 }
+
+/* media tags*/
+
+@media only screen and (max-width: 1000px) {
+    .header-panel{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 150px 100px 75px 100px;
+        background-color: #2e2e2e;
+        text-align: center;
+    }    
+    .our-mission-panel{        
+        padding: 50px;
+    }
+    .our-school-panel{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .our-school-panel > div > img{
+        max-width: 300px;
+        margin: auto;
+        padding-left: 30px;
+    }
+
+    .west-description{
+        text-align: center;
+    }
+
+  }

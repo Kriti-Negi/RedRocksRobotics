@@ -15,11 +15,9 @@ function Home(){
                 <NavBar/>
             </div>
             <div className = "header-panel">
-
                 <div>
                     <img className = "img-logo-home"  src = {logo}/>
                 </div>
-
                 <div className = "header-text">
                     <div className = "big-orange">
                         RED ROCK ROBOTICS
@@ -71,15 +69,9 @@ function Home(){
                         <Button name = "West High School" url = "https://west.slcschools.org/"/>
                     </div>
                 </div>
-
-                
-
-                
-                
             </div>
             <SlantedDivider/>
             <div class = "our-team-panel">
-                {/* Weird box thing in middle */}
                 <div className = "our-team">Our Team</div>
 
                 <div class = "lower-team-panel">
