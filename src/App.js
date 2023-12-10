@@ -10,13 +10,13 @@ import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
       <Routes>
-        <Route path = "/" element = {<Home/>}/>
-        <Route path = "/team" element = {<Team/>}/>
-        <Route path = "/media" element = {<Media/>}/>
-        <Route path = "/sponsors" element = {<Sponsors/>}/>
-        <Route path = "/contactus" element = {<ContactUs/>}/>
+        <Route path = "" element = {<Home/>}/>
+        <Route path = "team" element = {<Team/>}/>
+        <Route path = "media" element = {<Media/>}/>
+        <Route path = "sponsors" element = {<Sponsors/>}/>
+        <Route path = "contactus" element = {<ContactUs/>}/>
       </Routes>
     </BrowserRouter>
   );
