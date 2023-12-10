@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/RedRocksRobotics/static/css/main.8692826a.css",
+    "main.js": "/RedRocksRobotics/static/js/main.816506a5.js",
+    "static/js/787.39b381c1.chunk.js": "/RedRocksRobotics/static/js/787.39b381c1.chunk.js",
+    "static/media/Sponsorship_Banner-removebg-preview.png": "/RedRocksRobotics/static/media/Sponsorship_Banner-removebg-preview.45b864de56d57391a46c.png",
+    "static/media/HomePageLogo-removebg-preview.png": "/RedRocksRobotics/static/media/HomePageLogo-removebg-preview.f29364a3e0eb82356129.png",
+    "static/media/arch-logo_red-removebg-preview.png": "/RedRocksRobotics/static/media/arch-logo_red-removebg-preview.bc010af4cfb00d48da8d.png",
+    "static/media/tslotsLogo.png": "/RedRocksRobotics/static/media/tslotsLogo.7bd7444ea08e8e2a7265.png",
+    "static/media/HomePantherLogo.png": "/RedRocksRobotics/static/media/HomePantherLogo.781a9de716214df0759d.png",
+    "static/media/Northrop_Grumman_logo_blue-on-clear_2020.png": "/RedRocksRobotics/static/media/Northrop_Grumman_logo_blue-on-clear_2020.8c6369f6c2d5a4d77ca3.png",
+    "static/media/DoDLogo.png": "/RedRocksRobotics/static/media/DoDLogo.086fdc83b092649020a5.png",
+    "static/media/MarathonLogo.png": "/RedRocksRobotics/static/media/MarathonLogo.ea8b19f77287c53212b2.png",
+    "static/media/logo.svg": "/RedRocksRobotics/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/github.svg": "/RedRocksRobotics/static/media/github.6d4f8d6e9335a6ad1b70714b46fcc88d.svg",
+    "static/media/instagram.svg": "/RedRocksRobotics/static/media/instagram.849150f40cd137617202962a2e728c4d.svg",
+    "index.html": "/RedRocksRobotics/index.html",
+    "static/media/envelope-regular.svg": "/RedRocksRobotics/static/media/envelope-regular.6c4972d1534f82645bde0042ddf51633.svg",
+    "main.8692826a.css.map": "/RedRocksRobotics/static/css/main.8692826a.css.map",
+    "main.816506a5.js.map": "/RedRocksRobotics/static/js/main.816506a5.js.map",
+    "787.39b381c1.chunk.js.map": "/RedRocksRobotics/static/js/787.39b381c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8692826a.css",
+    "static/js/main.816506a5.js"
+  ]
+}
