@@ -26,7 +26,7 @@ function ContactUs(){
             </div> */}
             <div className = "button-panel-contact">
                 <div className = "email-button">
-                    <Button name = "Email: whsread3006@gmail.com"/>
+                    <Button name = "Email: whsred3006@gmail.com"/>
                 </div>
                 <div className = "instagram-button">
                     <Button name = "Instagram: redrockrobotics"/>
